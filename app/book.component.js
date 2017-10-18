@@ -10,13 +10,8 @@ var core_1 = require("@angular/core");
 var BookComponent = (function () {
     function BookComponent() {
         this.name = "안드로이드 게임 프로그래밍";
+        this.bookName = "bookName";
     }
-    BookComponent.prototype.setName = function (name) {
-        this.name = name;
-    };
-    BookComponent.prototype.getName = function () {
-        return this.name;
-    };
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',

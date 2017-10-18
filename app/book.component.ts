@@ -7,13 +7,6 @@ import {Component} from '@angular/core';
 })
 
 export class BookComponent{
-    name="안드로이드 게임 프로그래밍"
-
-    setName(name){
-        this.name = name;
-    }
-
-    getName(){
-        return this.name;
-    }
+    name="안드로이드 게임 프로그래밍";
+    bookName="bookName"
 }
