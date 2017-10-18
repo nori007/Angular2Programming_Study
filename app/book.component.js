@@ -14,9 +14,6 @@ var BookComponent = (function () {
     BookComponent.prototype.setName = function (name) {
         this.name = name;
     };
-    BookComponent.prototype.getName = function () {
-        return this.name;
-    };
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',

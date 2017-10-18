@@ -1,3 +1,5 @@
-<h1>Book</h1>
-<p class="font-orange">{{name}}</p>
-<p class="font-red">{{getName()}}</p>
+<h3>Book</h3>
+<p>{{name}}</p>
+<input [(ngModel)]="name"><br><br>
+<button (click)="setName('안드로이드 게임 프로그래밍')">안드로이드 게임 프로그래밍</button><br>
+<button (click)="setName('아파치 코르도바')">아파치 코르도바</button><br>

@@ -12,8 +12,4 @@ export class BookComponent{
     setName(name){
         this.name = name;
     }
-
-    getName(){
-        return this.name;
-    }
 }
