@@ -1,3 +1,4 @@
-<h1>Book</h1>
-<p class="font-orange">{{name}}</p>
-<p class="font-red">{{getName()}}</p>
+<h3>Book list</h3>
+<ul>
+    <li *ngFor="let book of books" class="font-red"><img src="./assets/images/{{book.img}}" height="80">{{book.name}}</li>
+</ul>

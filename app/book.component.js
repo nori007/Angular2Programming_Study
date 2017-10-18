@@ -9,14 +9,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var BookComponent = (function () {
     function BookComponent() {
-        this.name = "안드로이드 게임 프로그래밍";
+        this.books = [
+            { id: '001', name: 'image001', price: 11111, data: '2017111', img: 'img001.jpg' },
+            { id: '002', name: 'image002', price: 22222, data: '2017222', img: 'img002.jpg' },
+            { id: '003', name: 'image003', price: 33333, data: '2017333', img: 'img003.jpg' },
+            { id: '004', name: 'image004', price: 44444, data: '2017444', img: 'img004.jpg' },
+        ];
     }
-    BookComponent.prototype.setName = function (name) {
-        this.name = name;
-    };
-    BookComponent.prototype.getName = function () {
-        return this.name;
-    };
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',
