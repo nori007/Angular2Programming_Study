@@ -1,3 +1,4 @@
-<h1>Book</h1>
-<p class="font-orange">{{name}}</p>
-<p class="font-red">{{getName()}}</p>
+<h3>Book</h3>
+<p [class.font-red]=true>{{getName()}}</p>
+<button (click)="setName('안드로이드 게임')">안드로이드 게임</button>
+<button (click)="setName('웹앱 하이브리드 앱')">웹앱 하이브리드 앱</button>
