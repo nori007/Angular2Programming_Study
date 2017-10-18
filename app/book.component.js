@@ -25,6 +25,7 @@ var BookComponent = (function () {
         core_1.Component({
             selector: 'my-book',
             templateUrl: './app/book.component.html',
+            encapsulation: core_1.ViewEncapsulation.Native,
             styleUrls: ['./assets/stylesheets/book.css']
         })
     ], BookComponent);
