@@ -6,17 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var BookComponent = (function () {
+    function BookComponent() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: '<h1>AppComponent</h1><my-book></my-book>'
+    BookComponent = __decorate([
+        Component({
+            selector: 'my-book',
+            template: '<h3>BookComponent</h3>'
         })
-    ], AppComponent);
-    return AppComponent;
+    ], BookComponent);
+    return BookComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.BookComponent = BookComponent;
+//# sourceMappingURL=book-component.js.map
