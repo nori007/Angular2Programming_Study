@@ -21,7 +21,7 @@ var BookComponent = (function () {
         core_1.Component({
             selector: 'my-book',
             templateUrl: './app/book.component.html',
-            styles: ["\n        .font-red{\n            color: red\n        }\n        .font-orange{\n            color: orange\n        }\n    "]
+            styleUrls: ['./assets/stylesheets/book.css']
         })
     ], BookComponent);
     return BookComponent;
