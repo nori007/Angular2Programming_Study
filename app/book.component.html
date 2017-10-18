@@ -1,3 +1,6 @@
-<h1>Book</h1>
-<p class="font-orange">{{name}}</p>
-<p class="font-red">{{getName()}}</p>
+<h3>Book</h3>
+<p class="font-red">{{name}}</p>
+<p [class.font-orange]=true>{{name}}</p>
+<p [style.color]="'yellow'">{{name}}</p>
+
+<div [ngStyle]="setStyles()">setStyles</div>

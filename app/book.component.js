@@ -11,11 +11,11 @@ var BookComponent = (function () {
     function BookComponent() {
         this.name = "안드로이드 게임 프로그래밍";
     }
-    BookComponent.prototype.setName = function (name) {
-        this.name = name;
-    };
-    BookComponent.prototype.getName = function () {
-        return this.name;
+    BookComponent.prototype.setStyles = function () {
+        return {
+            'font-style': 'normal',
+            'font-size': '10px'
+        };
     };
     BookComponent = __decorate([
         core_1.Component({
