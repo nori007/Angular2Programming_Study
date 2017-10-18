@@ -20,7 +20,7 @@ var BookComponent = (function () {
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',
-            template: "\n        <h1>Book</h1>\n        <p>{{name}}</p>\n        <p>{{getName()}}</p>\n        <p>{{setName('\uD558\uC774\uBE0C\uB9AC\uB4DC \uC571')}}</p>\n        "
+            templateUrl: './app/book.component.html'
         })
     ], BookComponent);
     return BookComponent;

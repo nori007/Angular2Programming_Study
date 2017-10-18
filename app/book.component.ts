@@ -2,12 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'my-book',
-    template: `
-        <h1>Book</h1>
-        <p>{{name}}</p>
-        <p>{{getName()}}</p>
-        <p>{{setName('하이브리드 앱')}}</p>
-        `
+    templateUrl: './app/book.component.html'
 })
 
 export class BookComponent{
