@@ -20,7 +20,8 @@ var BookComponent = (function () {
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',
-            templateUrl: './app/book.component.html'
+            templateUrl: './app/book.component.html',
+            styles: ["\n        .font-red{\n            color: red\n        }\n        .font-orange{\n            color: orange\n        }\n    "]
         })
     ], BookComponent);
     return BookComponent;

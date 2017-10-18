@@ -3,6 +3,14 @@ import {Component} from '@angular/core';
 @Component({
     selector: 'my-book',
     templateUrl: './app/book.component.html'
+    styles: [`
+        .font-red{
+            color: red
+        }
+        .font-orange{
+            color: orange
+        }
+    `]
 })
 
 export class BookComponent{
