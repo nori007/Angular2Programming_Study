@@ -11,6 +11,10 @@ var BookComponent = (function () {
     function BookComponent() {
         this.name = "안드로이드 게임 프로그래밍";
     }
+    BookComponent.prototype.ngOnInit = function () {
+        var el = document.getElementsByClassName("font-orange")[0];
+        console.log(el);
+    };
     BookComponent.prototype.setName = function (name) {
         this.name = name;
     };
