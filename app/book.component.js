@@ -15,7 +15,11 @@ var BookComponent = (function () {
             { id: '003', name: 'image003', price: 33333, data: '2017333', img: 'img003.jpg' },
             { id: '004', name: 'image004', price: 44444, data: '2017444', img: 'img004.jpg' },
         ];
+        this.bookName = '';
     }
+    BookComponent.prototype.onSelectBook = function (name) {
+        this.bookName = name;
+    };
     BookComponent = __decorate([
         core_1.Component({
             selector: 'my-book',

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
     selector: 'book-image',
@@ -9,5 +9,11 @@ export class BookImageComponent {
     @Input() title = "제목";
     @Input() path = "./assets/images/img001.jpg";
     @Input() width = "100";
-    @Input() height = "150"
+    @Input() height = "150";
+
+    @Output() selectBook = new EventEmitter<string>();
+
+    onClick(name) {
+        this.selectBook.emit(name);
+    }
 }

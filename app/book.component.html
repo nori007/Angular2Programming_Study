@@ -2,6 +2,8 @@
 <ul>
     <!--<li *ngFor="let book of books" class="font-red"><img src="./assets/images/{{book.img}}" height="80">{{book.name}}</li>-->
     <li *ngFor="let book of books">
-        <book-image [path]="book.img" [title]="book.name" [width]="60" [height]="80"></book-image>
+        <book-image [path]="book.img" [title]="book.name" [width]="60" [height]="80" (selectBook)="onSelectBook(book.name)"></book-image>
     </li>
 </ul>
+<br>
+select: <input type="text" name="selectedBook" value="{{bookName}}">

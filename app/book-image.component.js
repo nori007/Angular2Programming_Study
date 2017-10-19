@@ -16,7 +16,11 @@ var BookImageComponent = (function () {
         this.path = "./assets/images/img001.jpg";
         this.width = "100";
         this.height = "150";
+        this.selectBook = new core_1.EventEmitter();
     }
+    BookImageComponent.prototype.onClick = function (name) {
+        this.selectBook.emit(name);
+    };
     __decorate([
         core_1.Input(),
         __metadata("design:type", Object)
@@ -33,6 +37,10 @@ var BookImageComponent = (function () {
         core_1.Input(),
         __metadata("design:type", Object)
     ], BookImageComponent.prototype, "height", void 0);
+    __decorate([
+        core_1.Output(),
+        __metadata("design:type", Object)
+    ], BookImageComponent.prototype, "selectBook", void 0);
     BookImageComponent = __decorate([
         core_1.Component({
             selector: 'book-image',
