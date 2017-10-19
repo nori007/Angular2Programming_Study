@@ -10,13 +10,14 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
 var book_component_1 = require("./book.component");
+var book_image_component_1 = require("./book-image.component");
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, book_component_1.BookComponent],
+            declarations: [app_component_1.AppComponent, book_component_1.BookComponent, book_image_component_1.BookImageComponent],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);
